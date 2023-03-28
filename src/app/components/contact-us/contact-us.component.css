@@ -1,0 +1,52 @@
+/*-------- contact page start --------*/
+
+
+.ff_contact_box {
+    text-align: center;
+    padding: 40px 0px;
+    margin-top: 200px;
+    margin-bottom: 250px;
+    /* background-image: url(contact.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: initial;
+    position: relative;
+    -webkit-perspective: 100px;
+    -moz-perspective: 100px;
+    -ms-perspective: 100px;
+    perspective: 100px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSjRpVMQe1XfkHD172o3LjXaOV1SoHApF7WwUUeh1B6rb2VqIbD&usqp=CAU");
+    background-image: url("https://cdn.pixabay.com/photo/2020/04/25/12/14/tech-5090539__340.jpg");
+    
+  }
+  .ff_contact_box:after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    outline: rgba(232, 63, 83, 0.4) solid 10px;
+    background-color: rgba(33, 39, 49, 0.9);
+    z-index: -1;
+  }
+   .ff_contact_box span {
+    color: #e83f53;
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+   .ff_contact_box h4 {
+    font-size: 25px;
+    color: #e83f53;
+    margin-bottom: 15px;
+  }
+  .ff_contact_box p {
+    color: #ffffff;
+  }
+  .ff_contact_box a {
+    color: #ffffff;
+  }
+   .ff_contact_box a:hover {
+    color: #e83f53;
+  }

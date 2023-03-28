@@ -1,0 +1,290 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+
+<link rel="stylesheet" type="text/css"
+	href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="container">
+
+	<div class="col-lg-12">
+		<div class="row">
+			<div class="col-lg-9 px-0 pr-lg-2 mb-2 mb-lg-0">
+				<div class="card border-light bg-white card proviewcard shadow-sm">
+					<div class="card-header">Veg</div>
+					<div class="card-body">
+						<div class="col-lg-12 p-3 cardlist">
+							<div class="col-lg-12">
+								<div class="row">
+									<div class="col-lg-8">
+										<div class="row">
+											<div class="col-4 col-lg-3 col-xl-2">
+												<div class="row">
+													<a href="cateview.php" class="w-100">
+														<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ1U7mnnMKctvE33EqmXTfEorDsMvdzMAj1YOlYdILn-4w-t7mG&usqp=CAU"
+															class="mx-auto d-block mb-1 addcartimg">
+													</a>
+												</div>
+											</div>
+											<div class="col-8 col-lg-9 col-xl-10">
+												<div class="d-block text-truncate mb-1">
+													<a href="cateview.php" class="cartproname">Kadhai Paneer</a>
+												</div>
+												<div class="seller d-block">
+													<span>Seller: </span>
+													<span>SELL010</span>
+												</div>
+												<div class="cartviewprice d-block">
+													<span class="amt">Rs.180</span>
+													<!-- <span class="oldamt">Rs.7,365</span>
+														<span class="disamt">28% off</span> -->
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<!-- <div class="col-4 col-lg-3 col-xl-2 p-0 qty">
+													<div class="input-group">
+														<div class="input-group-prepend">
+															<button type="button" class="btn btn-sm btn-qty"><i class="fa fa-minus"></i></button>
+														</div>
+														<input type="text" class="form-control form-control-sm text-center" id="" aria-describedby="" value="8" required>
+														<div class="input-group-append">
+															<button type="button" class="btn btn-sm btn-qty"><i class="fa fa-plus"></i></button>
+														</div>
+													</div>
+												</div> -->
+											<div class="mt">
+												<div class="container" class="btn bg-blue-ui white read">
+													<div class="row">
+														<div class="qty-changer">
+															<button class="qty-change"
+																(click)="deleteKadhaiPaneer()">-</button>
+															{{countKadhaiPaneer}}
+															<button class="qty-change"
+																(click)="addKadhaiPaneer()">+</button>
+														</div>
+													</div>
+												</div>
+											</div>
+											<!-- <div class="col-lg-3 col-5"> <button (click)="onClickMe()">Remove</button></div> -->
+										</div>
+									</div>
+									<div class="col-lg-3 ml-lg-auto align-self-start mt-2 mt-lg-0">
+										<div class="row">
+											<div class="prostatus">
+												<!-- <span class="del-time">Delivered <span>2-3 Business Days</span></span> -->
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-12 p-3 cardlist">
+							<div class="col-lg-12">
+								<div class="row">
+									<div class="col-lg-8">
+										<div class="row">
+											<div class="col-4 col-lg-3 col-xl-2">
+												<div class="row">
+													<a href="cateview.php" class="w-100">
+														<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcThaemDpyY7E0vxkuB0PZFAq10J1FPi5ZrZJ88QGgNxy0_nVlTv&usqp=CAU"
+															class="mx-auto d-block mb-1 addcartimg">
+													</a>
+												</div>
+											</div>
+											<div class="col-8 col-lg-9 col-xl-10">
+												<div class="d-block text-truncate mb-1">
+													<a href="cateview.php" class="cartproname">Fried Rice</a>
+												</div>
+												<div class="seller d-block">
+													<span>Seller: </span>
+													<span>SELL010</span>
+												</div>
+												<div class="cartviewprice d-block">
+													<span class="amt">Rs.130</span>
+													<!-- <span class="oldamt">Rs.2,700</span>
+														<span class="disamt">15% off</span> -->
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<!-- <div class="col-4 col-lg-3 col-xl-2 p-0 qty">
+													<div class="input-group">
+														<div class="input-group-prepend">
+															<button type="button" class="btn btn-sm btn-qty"><i class="fa fa-minus"></i></button>
+														</div>
+														<input type="text" class="form-control form-control-sm text-center" id="" aria-describedby="" value="8" required>
+														<div class="input-group-append">
+															<button type="button" class="btn btn-sm btn-qty"><i class="fa fa-plus"></i></button>
+														</div>
+													</div>
+												</div> -->
+											<div class="mt">
+												<div class="container" class="btn bg-blue-ui white read">
+													<div class="row">
+														<div class="qty-changer">
+															<button class="qty-change"
+																(click)="deleteFriedRice()">-</button>
+															{{countFriedRice}}
+															<button class="qty-change"
+																(click)="addFriedRice()">+</button>
+														</div>
+													</div>
+												</div>
+											</div>
+											<!-- <div class="col-lg-3 col-5"><button (click)="onClickMe()">Remove</button></div> -->
+										</div>
+									</div>
+									<div class="col-lg-3 ml-lg-auto align-self-start mt-2 mt-lg-0">
+										<div class="row">
+											<div class="prostatus">
+												<!-- <span class="del-time">Delivered <span>3 Business Days</span></span> -->
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-12 p-3 cardlist">
+							<div class="col-lg-12">
+								<div class="row">
+									<div class="col-lg-8">
+										<div class="row">
+											<div class="col-4 col-lg-3 col-xl-2">
+												<div class="row">
+													<a href="cateview.php" class="w-100">
+														<img src="data:image/jpeg;base64,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"
+															class="mx-auto d-block mb-1 addcartimg">
+													</a>
+												</div>
+											</div>
+											<div class="col-8 col-lg-9 col-xl-10">
+												<div class="d-block text-truncate mb-1">
+													<a href="cateview.php" class="cartproname">Gobi Fry</a>
+												</div>
+												<div class="seller d-block">
+													<span>Seller: </span>
+													<span>SELL010</span>
+												</div>
+												<div class="cartviewprice d-block">
+													<span class="amt">Rs.120</span>
+													<!-- <span class="oldamt">Rs.4,698</span>
+														<span class="disamt">35% off</span> -->
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<!-- <div class="col-4 col-lg-3 col-xl-2 p-0 qty">
+													<div class="input-group">
+														<div class="input-group-prepend">
+															<button type="button" class="btn btn-sm btn-qty"><i class="fa fa-minus"></i></button>
+														</div>
+														<input type="text" class="form-control form-control-sm text-center" id="" aria-describedby="" value="8" required>
+														<div class="input-group-append">
+															<button type="button" class="btn btn-sm btn-qty"><i class="fa fa-plus"></i></button>
+														</div>
+													</div>
+												</div> -->
+											<div class="mt">
+												<div class="container" class="btn bg-blue-ui white read">
+													<div class="row">
+														<div class="qty-changer">
+															<button class="qty-change"
+																(click)="deleteGobiFry()">-</button>
+															{{countGobiFry}}
+															<button class="qty-change" (click)="addGobiFry()">+</button>
+														</div>
+													</div>
+												</div>
+											</div>
+											<!-- <div class="col-lg-3 col-5"><button (click)="onClickMe()">Remove</button></div> -->
+										</div>
+									</div>
+									<div class="col-lg-3 ml-lg-auto align-self-start mt-2 mt-lg-0">
+										<div class="row">
+											<div class="prostatus">
+												<!-- <span class="del-time">Delivered <span>8 Business Days</span></span> -->
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-12 p-3 cardlist">
+							<div class="col-lg-12">
+								<div class="row">
+									<div class="col-lg-8">
+										<div class="row">
+											<div class="col-4 col-lg-3 col-xl-2">
+												<div class="row">
+													<a href="cateview.php" class="w-100">
+														<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRqG0mauYKztcRtRD1hSZnKX6-M8klQlk3MKYhghOBpm5Hl2b18&usqp=CAU"
+															class="mx-auto d-block mb-1 addcartimg">
+													</a>
+												</div>
+											</div>
+											<div class="col-8 col-lg-9 col-xl-10">
+												<div class="d-block text-truncate mb-1">
+													<a href="cateview.php" class="cartproname"> PaneerBiryani</a>
+												</div>
+												<div class="seller d-block">
+													<span>Seller: </span>
+													<span>SELL010</span>
+												</div>
+												<div class="cartviewprice d-block">
+													<span class="amt">Rs.350</span>
+													<!-- <span class="oldamt">Rs.14,000</span>
+														<span class="disamt">20% off</span> -->
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<!-- <div class="col-4 col-lg-3 col-xl-2 p-0 qty">
+													<div class="input-group">
+														<div class="input-group-prepend">
+															<button type="button" class="btn btn-sm btn-qty"><i class="fa fa-minus"></i></button>
+														</div>
+														<input type="text" class="form-control form-control-sm text-center" id="" aria-describedby="" value="8" required>
+														<div class="input-group-append">
+															<button type="button" class="btn btn-sm btn-qty"><i class="fa fa-plus"></i></button>
+														</div>
+													</div>
+													</div> -->
+											<div class="mt">
+												<div class="container" class="btn bg-blue-ui white read">
+													<div class="row">
+														<div class="qty-changer">
+															<button class="qty-change"
+																(click)="deleteBiryani()">-</button>
+															{{countBiryani}}
+															<button class="qty-change" (click)="addBiryani()">+</button>
+														</div>
+													</div>
+												</div>
+											</div>
+											<!-- <div class="col-lg-3 col-5"><button (click)="onClickMe()">Remove</button></div> -->
+										</div>
+									</div>
+									<div class="col-lg-3 ml-lg-auto align-self-start mt-2 mt-lg-0">
+										<div class="row">
+											<div class="prostatus">
+												<!-- <span class="del-time">Delivered <span>6-10 Business Days</span></span> -->
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card-footer border-light cart-panel-foo-fix">
+						<a [routerLink]="['/menu']" class="btn btn-add-con">Back</a>
+						<a [routerLink]="['/cart']" class="btn btn-cust">Place Order</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>

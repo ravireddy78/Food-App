@@ -1,0 +1,40 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<body>
+    <div id="login">
+        <h3 class="text-center text-white pt-5">Admin Login</h3>
+        <div class="container">
+            <div id="login-row" class="row justify-content-center align-items-center">
+                <div id="login-column" class="col-md-6">
+                    <div id="login-box" class="col-md-12">
+                        <form (ngSubmit)="loginSync()" >
+                            <div class="form-group form-row">
+                              <label for="adpassword">Username </label>
+                              <input type="text" id="mail" class="form-control" [(ngModel)]="adminLogin.adusrname" [formControl]="adusrname" >
+                            </div>
+                            <br>
+                            <div class="form-group form-row">
+                              <label for="adpassword">Password: </label>
+                              <input type="password" id="pass" class="form-control" [(ngModel)]="adminLogin.adpassword" [formControl]="adpassword">
+                            </div>
+                            <br>
+                            <div class="form-group">
+                              <button type="submit" class="btn btn-outline-success" [disabled]="!adpassword.valid" >Login
+                                <em class="fa fa-sign-in"></em>
+                              </button>
+                              <button type="submit" class="btn btn-outline-primary float-right" [routerLink]="['/forgot']">Forget Password
+                                <em class="fa fa-lock"></em>
+                              </button>
+                            </div>
+                      
+                          </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+

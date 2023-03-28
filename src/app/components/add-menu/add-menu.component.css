@@ -1,0 +1,21 @@
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+    background-image:url('https://image.freepik.com/free-photo/slice-delicious-pizza-with-ingredients-textured-wooden-background_23-2147926094.jpg');
+}
+.card-body {
+  padding : 3.25rem;
+
+  /* scroll-padding-bottom: 30px; */
+}
+
+.form-group{
+  padding:1rem;
+}
+form {
+  padding-left: 20rem;
+  
+}
+.btn{
+  margin: 25px;
+}

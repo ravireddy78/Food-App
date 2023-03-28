@@ -1,0 +1,27 @@
+<div>
+    <div class="row">
+
+
+     <form role="form"  class="col-md-9 go-right">
+            <h2>Feedback Form</h2>
+            <p>We welcome for your feedback and we will try to implement it into our website.</p>
+
+
+            <div class="form-group">
+                <input id="email" name="email" type="email" class="form-control" [(ngModel)]="feedBack.custmail" [formControl]="custmail" required>
+                <label for="email">Email Address</label>
+            </div>
+
+            <div class="form-group">
+                <textarea id="message" name="phone" class="form-control" style="height: 150px" [(ngModel)]="feedBack.message" [formControl]="message"
+                    required></textarea>
+                <label for="message">Message</label>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary" (click)="feedbackSync()">Submit</button>
+            </div>
+        </form> 
+
+        
+    </div>
+</div>

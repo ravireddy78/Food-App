@@ -1,0 +1,27 @@
+.navbar-light .navbar-brand {
+    color: rgba(0, 0, 0, 0.9);
+    width: 127px;
+   
+}
+.linkHome .nav-link {
+    color: rgba(0, 0, 0, 0.9);
+    margin-left: 15px;
+    
+}
+.searchBox .form-control{
+    margin-left: 20px;
+    
+    
+
+
+  
+}
+.searchBox input{
+    width: 465px;
+    
+  
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+    margin-right: -3px;
+}

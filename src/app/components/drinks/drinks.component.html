@@ -1,0 +1,285 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+    
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<div class="container">
+
+		<div class="col-lg-12">
+			<div class="row">
+				<div class="col-lg-9 px-0 pr-lg-2 mb-2 mb-lg-0">
+					<div class="card border-light bg-white card proviewcard shadow-sm">
+						<div class="card-header">Fresh Juice</div>
+						<div class="card-body">
+							<div class="col-lg-12 p-3 cardlist">
+								<div class="col-lg-12">
+									<div class="row">
+										<div class="col-lg-8">
+											<div class="row">
+												<div class="col-4 col-lg-3 col-xl-2">
+													<div class="row">
+														<a href="cateview.php" class="w-100">
+															<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTWhn4m4kNdorxUUVlius6vsHLuobioOBhexrDFuhY51KDJnUyb&usqp=CAU" class="mx-auto d-block mb-1 addcartimg">
+														</a>
+													</div>
+												</div>
+												<div class="col-8 col-lg-9 col-xl-10">
+													<div class="d-block text-truncate mb-1">
+														<a href="cateview.php" class="cartproname">Spinach Juice</a>
+													</div>
+													<div class="seller d-block">
+														<span>Seller: </span>
+														<span>SELL010</span>
+													</div>
+													<div class="cartviewprice d-block">
+														<span class="amt">Rs.120</span>
+														<!-- <span class="oldamt">Rs.7,365</span>
+														<span class="disamt">28% off</span> -->
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<!-- <div class="col-4 col-lg-3 col-xl-2 p-0 qty">
+													<div class="input-group">
+														<div class="input-group-prepend">
+															<button type="button" class="btn btn-sm btn-qty"><i class="fa fa-minus"></i></button>
+														</div>
+														<input type="text" class="form-control form-control-sm text-center" id="" aria-describedby="" value="8" required>
+														<div class="input-group-append">
+															<button type="button" class="btn btn-sm btn-qty"><i class="fa fa-plus"></i></button>
+														</div>
+													</div>
+												</div> -->
+												<div class="mt">
+													<div class="container"  class="btn bg-blue-ui white read">
+													  <div class="row">
+														<div class="qty-changer">
+																<button class="qty-change"  (click)="deleteSpinachJuice()">-</button>
+																{{countSpinachJuice}}
+																<button class="qty-change" (click)="addSpinachJuice()">+</button>
+															</div>
+													  </div>
+													</div>
+												  </div>
+							
+												<!-- <div class="col-lg-3 col-5"><button (click)="onClickMe()">Remove</button></div> -->
+											</div>
+										</div>
+										<div class="col-lg-3 ml-lg-auto align-self-start mt-2 mt-lg-0">
+											<div class="row">
+												<div class="prostatus">
+													<!-- <span class="del-time">Delivered <span>2-3 Business Days</span></span> -->
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-12 p-3 cardlist">
+								<div class="col-lg-12">
+									<div class="row">
+										<div class="col-lg-8">
+											<div class="row">
+												<div class="col-4 col-lg-3 col-xl-2">
+													<div class="row">
+														<a href="cateview.php" class="w-100">
+															<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSPz5fU1QguCgZjPMJjxsn1oeft5U4kgKirmEV_eKwdSMybklsR&usqp=CAU" class="mx-auto d-block mb-1 addcartimg">
+														</a>
+													</div>
+												</div>
+												<div class="col-8 col-lg-9 col-xl-10">
+													<div class="d-block text-truncate mb-1">
+														<a href="cateview.php" class="cartproname">Capsicum Annuum</a>
+													</div>
+													<div class="seller d-block">
+														<span>Seller: </span>
+														<span>SELL010</span>
+													</div>
+													<div class="cartviewprice d-block">
+														<span class="amt">Rs.180</span>
+														<!-- <span class="oldamt">Rs.2,700</span>
+														<span class="disamt">15% off</span> -->
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<!-- <div class="col-4 col-lg-3 col-xl-2 p-0 qty">
+													<div class="input-group">
+														<div class="input-group-prepend">
+															<button type="button" class="btn btn-sm btn-qty"><i class="fa fa-minus"></i></button>
+														</div>
+														<input type="text" class="form-control form-control-sm text-center" id="" aria-describedby="" value="8" required>
+														<div class="input-group-append">
+															<button type="button" class="btn btn-sm btn-qty"><i class="fa fa-plus"></i></button>
+														</div>
+													</div>
+												</div> -->
+												<div class="mt">
+													<div class="container"  class="btn bg-blue-ui white read">
+													  <div class="row">
+														<div class="qty-changer">
+																<button class="qty-change"  (click)="deleteCapsicumAnnuum()">-</button>
+																{{countCapsicumAnnuum}}
+																<button class="qty-change" (click)="addCapsicumAnnuum()">+</button>
+															</div>
+													  </div>
+													</div>
+												  </div>
+							
+												<!-- <div class="col-lg-3 col-5"><button (click)="onClickMe()">Remove</button></div> -->
+											</div>
+										</div>
+										<div class="col-lg-3 ml-lg-auto align-self-start mt-2 mt-lg-0">
+											<div class="row">
+												<div class="prostatus">
+													<!-- <span class="del-time">Delivered <span>3 Business Days</span></span> -->
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-12 p-3 cardlist">
+								<div class="col-lg-12">
+									<div class="row">
+										<div class="col-lg-8">
+											<div class="row">
+												<div class="col-4 col-lg-3 col-xl-2">
+													<div class="row">
+														<a href="cateview.php" class="w-100">
+															<img src="data:image/jpeg;base64,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" class="mx-auto d-block mb-1 addcartimg">
+														</a>
+													</div>
+												</div>
+												<div class="col-8 col-lg-9 col-xl-10">
+													<div class="d-block text-truncate mb-1">
+														<a href="cateview.php" class="cartproname">fanta</a>
+													</div>
+													<div class="seller d-block">
+														<span>Seller: </span>
+														<span>SELL010</span>
+													</div>
+													<div class="cartviewprice d-block">
+														<span class="amt">Rs.150</span>
+														<!-- <span class="oldamt">Rs.4,698</span>
+														<span class="disamt">35% off</span> -->
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<!-- <div class="col-4 col-lg-3 col-xl-2 p-0 qty">
+													<div class="input-group">
+														<div class="input-group-prepend">
+															<button type="button" class="btn btn-sm btn-qty"><i class="fa fa-minus"></i></button>
+														</div>
+														<input type="text" class="form-control form-control-sm text-center" id="" aria-describedby="" value="8" required>
+														<div class="input-group-append">
+															<button type="button" class="btn btn-sm btn-qty"><i class="fa fa-plus"></i></button>
+														</div>
+													</div>
+												</div> -->
+												<div class="mt">
+													<div class="container"  class="btn bg-blue-ui white read">
+													  <div class="row">
+														<div class="qty-changer">
+																<button class="qty-change"  (click)="deletefanta()">-</button>
+																{{countfanta}}
+																<button class="qty-change" (click)="addfanta()">+</button>
+															</div>
+													  </div>
+													</div>
+												  </div>
+							
+												<!-- <div class="col-lg-3 col-5"><button (click)="onClickMe()">Remove</button></div> -->
+											</div>
+										</div>
+										<div class="col-lg-3 ml-lg-auto align-self-start mt-2 mt-lg-0">
+											<div class="row">
+												<div class="prostatus">
+													<!-- <span class="del-time">Delivered <span>8 Business Days</span></span> -->
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-12 p-3 cardlist">
+								<div class="col-lg-12">
+									<div class="row">
+										<div class="col-lg-8">
+											<div class="row">
+												<div class="col-4 col-lg-3 col-xl-2">
+													<div class="row">
+														<a href="cateview.php" class="w-100">
+															<img src="data:image/jpeg;base64,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3bSzF70TMbQjXV16he6vQ0YFj8mooV31A5ax3niA7sV11rgKfPYEAnjtPRo96vtR1/8APl95ZtHxLUq1jlqrBZWCK+/B7q5S+QnhwysCmBkfR3O5MbtstixzER21/bccm00kOVFdj3ZudGbnKMqYCE5Uc7bZHl1G0nW3MezExPj06JTQahnQc/KLAAGAZWBIG5GD9EnpnE6iVGSsRPTszCS4XmBcOkiUkgICAgICAgICAgICAgICAgICAMC0dZ0hVoGMmDagY+kwdWRCYF+YFGgYoF5gXDpIlJICAgICAgICAgICAgICAgICAgUYyRapkoXNAxmBGV6fVc296lMHpWA4PLgb9MA4PTy9051K2bY9durY0tF4UhrQzEgg8oXABGRjG+QPieknUom1N9IZa6bxjNgPT9EZ9fkP/fqjUkzSfBttJVsUDIYFR0kSkkBAQEBAQEBAQEBAQEBAQEBAQLXzg4642ycDPt8oEBb2gsrJD6Vww6gWKfq23nSGBe2tBODXYreg8v8AOBc/a2r+6s+pf5wLR2uo/u7fsp/VAz19q6D/AKu37Kf1QMv9qaf1Lfsr/VAx2draB+hb9lP6oGKvtfp2OOWwH1qn9UCVp4mrgcqMSfLaBvrnAyMH0dfjISrICAgICAgICAgICAgICAgICAgDAjuI8zqR3WT5HbIkjl9Twy7m5hQc+6NoWPXqh002fdGxrM+s/wB1P2Y2MtN+q89KfsxsbK2ag/7OfsxsUam9v9R8I2NW3hGpYgrUBv55EbHWcJ560VTUQceJttz5+6EpVTn1SBWAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH/2Q==" class="mx-auto d-block mb-1 addcartimg">
+														</a>
+													</div>
+												</div>
+												<div class="col-8 col-lg-9 col-xl-10">
+													<div class="d-block text-truncate mb-1">
+														<a href="cateview.php" class="cartproname">Orange Juice</a>
+													</div>
+													<div class="seller d-block">
+														<span>Seller: </span>
+														<span>SELL010</span>
+													</div>
+													<div class="cartviewprice d-block">
+														<span class="amt">Rs.120</span>
+														<!-- <span class="oldamt">Rs.14,000</span>
+														<span class="disamt">20% off</span> -->
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<!-- <div class="col-4 col-lg-3 col-xl-2 p-0 qty">
+													<div class="input-group">
+														<div class="input-group-prepend">
+															<button type="button" class="btn btn-sm btn-qty"><i class="fa fa-minus"></i></button>
+														</div>
+														<input type="text" class="form-control form-control-sm text-center" id="" aria-describedby="" value="8" required>
+														<div class="input-group-append">
+															<button type="button" class="btn btn-sm btn-qty"><i class="fa fa-plus"></i></button>
+														</div>
+													</div>
+												</div> -->
+												<div class="mt">
+													<div class="container"  class="btn bg-blue-ui white read">
+													  <div class="row">
+														<div class="qty-changer">
+																<button class="qty-change"  (click)="deleteOrangeJuice()">-</button>
+																{{countOrangeJuice}}
+																<button class="qty-change" (click)="addOrangeJuice()">+</button>
+															</div>
+													  </div>
+													</div>
+												  </div>
+							
+												<!-- <div class="col-lg-3 col-5"><button (click)="onClickMe()">Remove</button></div> -->
+											</div>
+										</div>
+										<div class="col-lg-3 ml-lg-auto align-self-start mt-2 mt-lg-0">
+											<div class="row">
+												<div class="prostatus">
+													<!-- <span class="del-time">Delivered <span>6-10 Business Days</span></span> -->
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card-footer border-light cart-panel-foo-fix">
+							<a [routerLink]="['/menu']" class="btn btn-add-con">Back</a>
+							<a [routerLink]="['/cart']" class="btn btn-cust">Place Order</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	

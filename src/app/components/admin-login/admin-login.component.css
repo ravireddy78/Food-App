@@ -1,0 +1,22 @@
+ body {
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSBvkZWA0TdjcbrK5EFEETQ1flcJaxrcMRlbRp7kokBq6zveZ4J&usqp=CAU");
+  height: 120vh;
+} 
+ #login .container #login-row #login-column #login-box {
+  margin-top: 100px;
+  max-width: 600px;
+  height: 320px;
+  border: 9px solid #9C9C9C;
+  background-color: #EAEAEA;
+}
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+  
+}
+#login .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -85px;
+} 

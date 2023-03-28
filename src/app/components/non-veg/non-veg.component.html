@@ -1,0 +1,281 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+    
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<div class="container">
+
+		<div class="col-lg-12">
+			<div class="row">
+				<div class="col-lg-9 px-0 pr-lg-2 mb-2 mb-lg-0">
+					<div class="card border-light bg-white card proviewcard shadow-sm">
+						<div class="card-header">Non Veg</div>
+						<div class="card-body">
+							<div class="col-lg-12 p-3 cardlist">
+								<div class="col-lg-12">
+									<div class="row">
+										<div class="col-lg-8">
+											<div class="row">
+												<div class="col-4 col-lg-3 col-xl-2">
+													<div class="row">
+														<a href="cateview.php" class="w-100">
+															<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRARRQ0NnFg8kqHcxw3vFu426Mj6WOb55lK8MJ7v6wJPpxwIXLA&usqp=CAU" class="mx-auto d-block mb-1 addcartimg">
+														</a>
+													</div>
+												</div>
+												<div class="col-8 col-lg-9 col-xl-10">
+													<div class="d-block text-truncate mb-1">
+														<a href="cateview.php" class="cartproname">Chilly Chicken Gravy</a>
+													</div>
+													<div class="seller d-block">
+														<span>Seller: </span>
+														<span>SELL010</span>
+													</div>
+													<div class="cartviewprice d-block">
+														<span class="amt">Rs.190</span>
+														<!-- <span class="oldamt">Rs.7,365</span>
+														<span class="disamt">28% off</span> -->
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<!-- <div class="col-4 col-lg-3 col-xl-2 p-0 qty">
+													<div class="input-group">
+														<div class="input-group-prepend">
+															<button type="button" class="btn btn-sm btn-qty"><i class="fa fa-minus"></i></button>
+														</div>
+														<input type="text" class="form-control form-control-sm text-center" id="" aria-describedby="" value="8" required>
+														<div class="input-group-append">
+															<button type="button" class="btn btn-sm btn-qty"><i class="fa fa-plus"></i></button>
+														</div>
+													</div>
+												</div> -->
+												<div class="mt">
+													<div class="container"  class="btn bg-blue-ui white read">
+													  <div class="row">
+														<div class="qty-changer">
+																<button class="qty-change"  (click)="deleteChillyChickenGravy()">-</button>
+																{{countChillyChickenGravy}}
+																<button class="qty-change" (click)="addChillyChickenGravy()">+</button>
+															</div>
+													  </div>
+													</div>
+												  </div>
+												<!-- <div class="col-lg-3 col-5"><button (click)="onClickMe()">Remove</button></div> -->
+											</div>
+										</div>
+										<div class="col-lg-3 ml-lg-auto align-self-start mt-2 mt-lg-0">
+											<div class="row">
+												<div class="prostatus">
+													<!-- <span class="del-time">Delivered <span>2-3 Business Days</span></span> -->
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-12 p-3 cardlist">
+								<div class="col-lg-12">
+									<div class="row">
+										<div class="col-lg-8">
+											<div class="row">
+												<div class="col-4 col-lg-3 col-xl-2">
+													<div class="row">
+														<a href="cateview.php" class="w-100">
+															<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQBFZu6Co0WF7-QzGSECGpyUen0Zn2xOXo_5mkjcKOY17MT-I8q&usqp=CAU" class="mx-auto d-block mb-1 addcartimg">
+														</a>
+													</div>
+												</div>
+												<div class="col-8 col-lg-9 col-xl-10">
+													<div class="d-block text-truncate mb-1">
+														<a href="cateview.php" class="cartproname">Chicken Fried Rice</a>
+													</div>
+													<div class="seller d-block">
+														<span>Seller: </span>
+														<span>SELL010</span>
+													</div>
+													<div class="cartviewprice d-block">
+														<span class="amt">Rs.130</span>
+														<!-- <span class="oldamt">Rs.2,700</span>
+														<span class="disamt">15% off</span> -->
+													</div>
+												</div>
+											</div>
+											 <div class="row">
+												<!-- <div class="col-4 col-lg-3 col-xl-2 p-0 qty">
+													<div class="input-group">
+														<div class="input-group-prepend">
+															<button type="button" class="btn btn-sm btn-qty"><i class="fa fa-minus"></i></button>
+														</div>
+														<input type="text" class="form-control form-control-sm text-center" id="" aria-describedby="" value="8" required>
+														<div class="input-group-append">
+															<button type="button" class="btn btn-sm btn-qty"><i class="fa fa-plus"></i></button>
+														</div>
+													</div>
+												</div>  -->
+												<div class="mt">
+													<div class="container"  class="btn bg-blue-ui white read">
+													  <div class="row">
+														<div class="qty-changer">
+																<button class="qty-change"  (click)="deleteChickenFriedRice()">-</button>
+																{{countChickenFriedRice}}
+																<button class="qty-change" (click)="addChickenFriedRice()">+</button>
+															</div>
+													  </div>
+													</div>
+												  </div>
+												<!-- <div class="col-lg-3 col-5"><button (click)="onClickMe()">Remove</button></div> -->
+											</div>
+										</div>
+										<div class="col-lg-3 ml-lg-auto align-self-start mt-2 mt-lg-0">
+											<div class="row">
+												<div class="prostatus">
+													<!-- <span class="del-time">Delivered <span>3 Business Days</span></span> -->
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-12 p-3 cardlist">
+								<div class="col-lg-12">
+									<div class="row">
+										<div class="col-lg-8">
+											<div class="row">
+												<div class="col-4 col-lg-3 col-xl-2">
+													<div class="row">
+														<a href="cateview.php" class="w-100">
+															<img src="https://media.istockphoto.com/photos/tom-yum-kroong-soup-picture-id533699468?b=1&k=6&m=533699468&s=170667a&w=0&h=MkASqlpLFW9tkvD-ar4wolcQTTtgz8dVHknZ3XQYsLg=" class="mx-auto d-block mb-1 addcartimg">
+														</a>
+													</div>
+												</div>
+												<div class="col-8 col-lg-9 col-xl-10">
+													<div class="d-block text-truncate mb-1">
+														<a href="cateview.php" class="cartproname">Fish Curry</a>
+													</div>
+													<div class="seller d-block">
+														<span>Seller: </span>
+														<span>SELL010</span>
+													</div>
+													<div class="cartviewprice d-block">
+														<span class="amt">Rs.180</span>
+														<!-- <span class="oldamt">Rs.4,698</span>
+														<span class="disamt">35% off</span> -->
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<!-- <div class="col-4 col-lg-3 col-xl-2 p-0 qty">
+													<div class="input-group">
+														<div class="input-group-prepend">
+															<button type="button" class="btn btn-sm btn-qty"><i class="fa fa-minus"></i></button>
+														</div>
+														<input type="text" class="form-control form-control-sm text-center" id="" aria-describedby="" value="8" required>
+														<div class="input-group-append">
+															<button type="button" class="btn btn-sm btn-qty"><i class="fa fa-plus"></i></button>
+														</div>
+													</div>
+												</div> -->
+												<div class="mt">
+													<div class="container"  class="btn bg-blue-ui white read">
+													  <div class="row">
+														<div class="qty-changer">
+																<button class="qty-change"  (click)="deleteFishCurry()">-</button>
+																{{countFishCurry}}
+																<button class="qty-change" (click)="addFishCurry()">+</button>
+															</div>
+													  </div>
+													</div>
+												  </div>
+												<!-- <div class="col-lg-3 col-5"><button (click)="onClickMe()">Remove</button></div> -->
+											</div>
+										</div>
+										<div class="col-lg-3 ml-lg-auto align-self-start mt-2 mt-lg-0">
+											<div class="row">
+												<div class="prostatus">
+													<!-- <span class="del-time">Delivered <span>8 Business Days</span></span> -->
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-12 p-3 cardlist">
+								<div class="col-lg-12">
+									<div class="row">
+										<div class="col-lg-8">
+											<div class="row">
+												<div class="col-4 col-lg-3 col-xl-2">
+													<div class="row">
+														<a href="cateview.php" class="w-100">
+															<img src="https://media.istockphoto.com/photos/boneless-diced-chicken-cooked-in-a-traditional-kadhai-picture-id476185149?b=1&k=6&m=476185149&s=170667a&w=0&h=qmOqOtZTal2MmXUbBY8VuiR5DDQveznDdudB6vOum50=" class="mx-auto d-block mb-1 addcartimg">
+														</a>
+													</div>
+												</div>
+												<div class="col-8 col-lg-9 col-xl-10">
+													<div class="d-block text-truncate mb-1">
+														<a href="cateview.php" class="cartproname">Kadhai Chicken</a>
+													</div>
+													<div class="seller d-block">
+														<span>Seller: </span>
+														<span>SELL010</span>
+													</div>
+													<div class="cartviewprice d-block">
+														<span class="amt">Rs.230</span>
+														<!-- <span class="oldamt">Rs.14,000</span>
+														<span class="disamt">20% off</span> -->
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<!-- <div class="col-4 col-lg-3 col-xl-2 p-0 qty">
+													<div class="input-group">
+														<div class="input-group-prepend">
+															<button type="button" class="btn btn-sm btn-qty"><i class="fa fa-minus"></i></button>
+														</div>
+														<input type="text" class="form-control form-control-sm text-center" id="" aria-describedby="" value="8" required>
+														<div class="input-group-append">
+															<button type="button" class="btn btn-sm btn-qty"><i class="fa fa-plus"></i></button>
+														</div>
+													</div>
+												</div> -->
+												<div class="mt">
+													<div class="container"  class="btn bg-blue-ui white read">
+													  <div class="row">
+														<div class="qty-changer">
+																<button class="qty-change"  (click)="deleteKadhaiChicken()">-</button>
+																{{countKadhaiChicken}}
+																<button class="qty-change" (click)="addKadhaiChicken()">+</button>
+															</div>
+													  </div>
+													</div>
+												  </div>
+												<!-- <div class="col-lg-3 col-5"><button (click)="onClickMe()">Remove</button></div> -->
+											</div>
+										</div>
+										<div class="col-lg-3 ml-lg-auto align-self-start mt-2 mt-lg-0">
+											<div class="row">
+												<div class="prostatus">
+													<!-- <span class="del-time">Delivered <span>6-10 Business Days</span></span> -->
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card-footer border-light cart-panel-foo-fix">
+							<a [routerLink]="['/menu']" class="btn btn-add-con">Back</a>
+							<a [routerLink]="['/cart']" class="btn btn-cust">Place Order</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	

@@ -1,0 +1,70 @@
+<!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+<!------ Include the above in your HEAD tag ---------->
+
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"> -->
+
+
+<div class="container">
+	<div class="table-wrapper">
+	 <div class="table-title">
+	<div class="row">
+	<div class="col-sm-6">
+		<h2>My <b>Cart</b></h2>
+	  </div>
+	</div>
+	 </div>
+
+
+
+
+
+<div class="card">
+<table class="table table-hover shopping-cart-wrap">
+<thead class="text-muted">
+<tr>
+  <th scope="col">item</th>
+  <th scope="col" width="120">Quantity</th>
+  <th scope="col" width="120">Price</th>
+  <!-- <th scope="col" width="200" class="text-right">Action</th> -->
+</tr>
+</thead>
+<tbody>
+<tr *ngFor ='let item of values(AdminService.cartData) '>
+	<td>
+<figure class="media">
+	<!-- <div class="img-wrap"><img src="http://bootstrap-ecommerce.com/main/images/items/2.jpg" class="img-thumbnail img-sm"></div> -->
+	<figcaption class="media-body">
+		<h6 class="title text-truncate">{{item['itemname']}} </h6>
+	</figcaption>
+</figure> 
+	</td>
+	<td> 
+		{{item['count'] || 0}} 
+	</td>
+	<td> 
+		<div class="price-wrap"> 
+			<var class="price">{{item['price'] * item['count']}}</var> 
+			
+		</div> 
+	</td>
+	<td class="text-right"> 
+	</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+</div> 
+
+
+ 
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+   <span class="navbar-toggler-icon"></span> 
+    <button [routerLink] ="['/payment']" class="btn btn-lg btn-success float-right " type="Place Order" >Pay Now</button>
+   </button>
+
+
+    
+

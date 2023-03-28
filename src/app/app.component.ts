@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'RestobarFront';
+  static API_URL = 'http://localhost:3000';
+  
 }

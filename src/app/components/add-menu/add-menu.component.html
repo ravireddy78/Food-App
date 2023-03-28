@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<div class="container mt-4 mb-4" >
+  <!-- <br></br>
+  <hr></hr> -->
+   <form>
+     <div class="card text-center" style="width:30rem;">
+      <div class="card-body">
+        <p><b>Add Menu Items</b></p>
+        <!-- <div class="form-group">
+          <label for="exampleFormControlSelect1"></label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>Veg Starter</option>
+            <option>Non Veg Starter</option>
+            <option>Veg</option>
+            <option>Non Veg</option>
+            <option>Desert</option>
+            <option>Drinks</option>
+
+          </select>
+        </div> -->
+        
+<!-- <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Select Item
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" >Non-Veg Starter</a>
+    <a class="dropdown-item" >Veg Starter</a>
+    <a class="dropdown-item">Veg</a>
+    <a class="dropdown-item" >Non-Veg</a>
+    <a class="dropdown-item" >Desert</a>
+    <a class="dropdown-item">Drink</a>
+  </div>
+</div> -->
+<div class="input-group mb-4">
+  <select class="custom-select" id="categoryid"  name="categoryid" [(ngModel)]="addItems.categoryid" [formControl]="categoryid">
+    <option selected>Choose...</option>
+    <option value="1">Veg Starter</option>
+    <option value="2">Non-Veg Starter</option>
+    <option value="3">Veg</option>
+    <option value="4">Non-Veg</option>
+    <option value="5">Desert</option>
+    <option value="6">Drink</option>
+  </select>
+  <div class="input-group-append">
+    <label class="input-group-text" for="inputGroupSelect02">Select Item</label>
+  </div>
+</div>
+    <div class="form-group">
+      <label for="exampleFormControlInput1"></label>
+      <input type="email" class="form-control" id="itemname" [(ngModel)]="addItems.itemname" [formControl]="itemname"  placeholder=" Item Name">
+    </div>
+   
+   
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1"></label>
+        <input type="text" class="form-control" id="price" [(ngModel)]="addItems.price" [formControl]="price"   placeholder=" Price" rows="3">
+      </div>
+    
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1"></label>
+      <textarea class="form-control" id="food_description" [(ngModel)]="addItems.food_description" [formControl]="food_description"  placeholder="Description" rows="3"></textarea>
+    </div>
+    
+    <!-- <button type="submit"  class="btn btn-primary">Add</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+    <!-- <button type="submit" class="btn btn-primary">close</button> -->
+    
+    <button  class="btn btn-lg btn-primary " type="ADD" (click) = "addItem()" >ADD</button>
+    <button [routerLink]="['/add-menu']" class="btn btn-lg btn-danger " type="button">Close</button>
+  
+  </div></div>
+  </form>
+</div>
+</body>
+</html>

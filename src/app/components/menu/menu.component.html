@@ -1,0 +1,854 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+
+
+<div class="container cta-100 ">
+  <div class="container">
+    <div class="row blog">
+      <div class="col-md-12">
+        <div id="blogCarousel" class="carousel slide container-blog" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#blogCarousel" data-slide-to="1"></li> 
+            <!-- <li data-target="#blogCarousel" data-slide-to="2"></li> 
+            <li data-target="#blogCarousel" data-slide-to="3"></li>
+            <li data-target="#blogCarousel" data-slide-to="4"></li>
+            <li data-target="#blogCarousel" data-slide-to="5"></li> -->
+          </ol>
+          <!-- Carousel items -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="item-box-blog">
+                    <div class="item-box-blog-image">
+                      <!--Date-->
+                      <!-- <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu 01</span> </div> -->
+                      <!--Image-->
+                      <figure> <img alt=""
+                          src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQXYEC-7ZjZHk2JXVeJ9bXlNgmm7sY8m4OjhT08vyBXipPgezyS&usqp=CAU"> </figure>
+                    </div>
+                    <div class="item-box-blog-body">
+                      <!--Heading-->
+                      <div class="item-box-blog-heading">
+                        <a href="#" tabindex="0">
+                          <h5>Veg Starter</h5>
+                        </a>
+                      </div>
+                      <!--Data-->
+                      <div class="item-box-blog-data" style="padding: px 15px;">
+                        <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
+                      </div>
+                      <!--Text-->
+                      <div class="item-box-blog-text">
+                        <p>CUISINES:Mexican Green Wave
+                           COST :  Rs. 200
+                           About: Pizza, dish of Italian origin consisting of a flattened disk of bread dough topped with some combination of olive oil,
+                           oregano, tomato, olives, mozzarella or other cheese, and many other ingredients, baked quickly—usually,
+                            in a commercial setting, using a wood-fired oven heated to a very high temperature—and served hot.</p>
+                      </div>
+                      <div class="mt">
+                       <div class="container"  class="btn bg-blue-ui white read">
+                         <div class="row">
+                           <div class="qty-changer">
+                            <a routerLink="/search/veg starter"><button class="btn btn-danger float-right" >View</button></a>
+                            <!-- <button (click)="onClickMe()">Click me!</button> -->
+                          
+                                   <!-- <button class="qty-change"  (click)="">See Item</button>
+                                   {{countPizza}}
+                                   <button class="qty-change" (click)="addPizza()">+</button> -->
+                               </div>
+                         </div>
+                       </div>
+                     </div>
+                      <!--Read More Button-->
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="item-box-blog">
+                    <div class="item-box-blog-image">
+                      <!--Date-->
+                      <!-- <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu 01</span> </div> -->
+                      <!--Image-->
+                      <figure> <img alt=""
+                          src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQhSbVreUj0lsUPJJKrr7JIiO_F8AQQkZOt2YJdSgf6oXy4yAcd&usqp=CAU"> </figure>
+                    </div>
+                    <div class="item-box-blog-body">
+                      <!--Heading-->
+                      <div class="item-box-blog-heading">
+                        <a href="#" tabindex="0">
+                          <h5>NonVeg Starter</h5>
+                        </a>
+                      </div>
+                      <!--Data-->
+                      <div class="item-box-blog-data" style="padding: px 15px;">
+                        <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
+                      </div>
+                      <!--Text-->
+                      <div class="item-box-blog-text">
+                        <p>CUISINES:Burger, Fast Food
+                          COST FOR TWO:Rs. 300
+                          About: Burgers – once considered being a quintessential meal for Americans has today become a party of daily food habit for people globally. That’s because they are ready to eat, easy 
+                          to get and can be eaten while working! Very few of us are familiar with facts about this interesting food.</p>
+                      </div>
+                      <div class="mt">
+                        <div class="container"  class="btn bg-blue-ui white read">
+                          <div class="row">
+                            <a routerLink="/search/NonVeg Starter"><button class="btn btn-danger float-right" >View</button></a>
+                            <!-- <button (click)="onClickMe()">Click me!</button> -->
+                            <!-- <div class="qty-changer">
+                                    <button class="qty-change"  (click)="deleteBurger()">-</button>
+                                    {{countBurger}}
+                                    <button class="qty-change" (click)="addBurger()">+</button>
+                                </div> -->
+                          </div>
+                        </div>
+                      </div>
+                      <!--Read More Button-->
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="item-box-blog">
+                    <div class="item-box-blog-image">
+                      <!--Date-->
+                      <!-- <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu 01</span> </div> -->
+                      <!--Image-->
+                      <figure> <img alt=""
+                          src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTtJyq2i4xsE7khDIsrdzG496bYsMhU1q1oyp5f4mjL8H0pr8us&usqp=CAU"> </figure>
+                    </div>
+                    <div class="item-box-blog-body">
+                      <!--Heading-->
+                      <div class="item-box-blog-heading">
+                        <a href="#" tabindex="0">
+                          <h5>Veg</h5>
+                        </a>
+                      </div>
+                      <!--Data-->
+                      <div class="item-box-blog-data" style="padding: px 15px;">
+                        <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
+                      </div>
+                      <!--Text-->
+                      <div class="item-box-blog-text">
+                        <p>CUISINES:Veg Biryani
+                          COST :Rs. 280
+                          About:Vegetarian biryani is good for health ,preffably to take brown rice . Vegatables particularly green vegetables are of full of nutrients like Vit C ,B all and folate etc .
+                           If biryani is made up of chick peas ,gram seeds or legumes give protein which non veg - meat etc gives .</p>
+                      </div>
+                      <div class="mt">
+                        <div class="container"  class="btn bg-blue-ui white read">
+                          <div class="row">
+                            <a routerLink="/search/veg"><button class="btn btn-danger float-right" >View</button></a>
+                            <!-- <button (click)="onClickMe()">Click me!</button> -->
+                            <!-- <div class="qty-changer">
+                                    <button class="qty-change"  (click)="deletePanipuri()">-</button>
+                                    {{countPanipuri}}
+                                    <button class="qty-change" (click)="addPanipuri()">+</button>
+                                </div> -->
+                          </div>
+                        </div>
+                      </div>
+                      <!--Read More Button-->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--.row-->
+            </div>
+            <!--.item-->
+            <div class="carousel-item ">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="item-box-blog">
+                    <div class="item-box-blog-image">
+                      <!--Date-->
+                      <!-- <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu 01</span> </div> -->
+                      <!--Image-->
+                      <figure> <img alt=""
+                          src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQZh8IhE2nJ8W_7ERlipgdNrJe7ZRcoapTXh8C99urV6vew7kun&usqp=CAU"> </figure>
+                    </div>
+                    <div class="item-box-blog-body">
+                      <!--Heading-->
+                      <div class="item-box-blog-heading">
+                        <a href="#" tabindex="0">
+                          <h5>Non Veg</h5>
+                        </a>
+                      </div>
+                      <!--Data-->
+                      <div class="item-box-blog-data" style="padding: px 15px;">
+                        <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
+                      </div>
+                      <!--Text-->
+                      <div class="item-box-blog-text">
+                        <p>Course :Chicken
+                          Cost : Rs. 160
+                          About: Chicken 65 is a spicy, deep-fried chicken dish originating from Hotel Buhari, Chennai, India, as an entrée, or quick snack.
+                           The flavour of the dish can be attributed to red chillies, but the exact set of ingredients for the recipe can vary.</p>
+                      </div>
+                      <div class="mt">
+                        <div class="container"  class="btn bg-blue-ui white read">
+                          <div class="row">
+                            <a routerLink="/search/Non Veg"><button class="btn btn-danger float-right" >View</button></a>
+                            <!-- <button (click)="onClickMe()">Click me!</button> -->
+                            <!-- <div class="qty-changer">
+                                    <button class="qty-change"  (click)="deleteChicken65()">-</button>
+                                    {{countChicken65}}
+                                    <button class="qty-change" (click)="addChicken65()">+</button>
+                                </div> -->
+                          </div>
+                        </div>
+                      </div>
+                      <!--Read More Button-->
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="item-box-blog">
+                    <div class="item-box-blog-image">
+                      <!--Date-->
+                      <!-- <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu 01</span> </div> -->
+                      <!--Image-->
+                      <figure> <img alt=""
+                          src="https://img5.goodfon.com/wallpaper/nbig/5/cf/eda-desert-pirozhnoe-krem-shokoladnoe-klubnika.jpg"> </figure>
+                    </div>
+                    <div class="item-box-blog-body">
+                      <!--Heading-->
+                      <div class="item-box-blog-heading">
+                        <a href="#" tabindex="0">
+                          <h5>Desert</h5>
+                        </a>
+                      </div>
+                      <!--Data-->
+                      <div class="item-box-blog-data" style="padding: px 15px;">
+                        <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
+                      </div>
+                      <!--Text-->
+                      <div class="item-box-blog-text">
+                        <p>Course :Appetiser,Street Food,Chips
+                          Cost : Rs. 40
+                          About: Potato chips (often just chips), or crisps (in British English),
+                           are thin slices of potato that have been either deep fried or baked until crunchy.
+                          </p>
+                      </div>
+                      <div class="mt">
+                        <div class="container"  class="btn bg-blue-ui white read">
+                          <div class="row">
+                            <a routerLink="/search/desert"><button class="btn btn-danger float-right" >View</button></a>
+                            <!-- <button (click)="onClickMe()">Click me!</button> -->
+                            <!-- <div class="qty-changer">
+                                    <button class="qty-change"  (click)="deleteChips()">-</button>
+                                    {{countChips}}
+                                    <button class="qty-change" (click)="addChips()">+</button>
+                                </div> -->
+                          </div>
+                        </div>
+                      </div>
+                      <!--Read More Button-->
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="item-box-blog">
+                    <div class="item-box-blog-image">
+                      <!--Date-->
+                      <!-- <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu 01</span> </div> -->
+                      <!--Image-->
+                      <figure> <img alt=""
+                          src="https://images.financialexpress.com/2017/07/Cocktail.jpg"> </figure>
+                    </div>
+                    <div class="item-box-blog-body">
+                      <!--Heading-->
+                      <div class="item-box-blog-heading">
+                        <a href="#" tabindex="0">
+                          <h5>Drinks</h5>
+                        </a>
+                      </div>
+                      <!-- Data -->
+                      <div class="item-box-blog-data" style="padding: px 15px;">
+                        <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
+                      </div>
+                      <!-- <Text> -->
+                      <div class="item-box-blog-text">
+                        <p>Course - Plain Butter Kulcha
+                          Cost: Rs. 180
+                          About : Kulcha is an Indian flatbread made with wheat flour, and it is commonly served as an accompaniment to chickpea curry. The bread
+                           is cooked in a tandoor or on a griddle, and it is usually brushed with ghee and served while still hot.
+                          </p>
+                      </div>
+                      <div class="mt">
+                        <div class="container"  class="btn bg-blue-ui white read">
+                          <div class="row">
+                            <a routerLink="/search/drinks"><button class="btn btn-danger float-right" >View</button></a>
+                            <!-- <button (click)="onClickMe()">Click me!</button>  -->
+                            <!-- <div class="qty-changer">
+                                    <button class="qty-change"  (click)="deleteKulcha()">-</button>
+                                    {{ countKulcha }}
+                                    <button class="qty-change" (click)="addKulcha()">+</button>
+                                </div> -->
+                          </div>
+                        </div>
+                      </div>
+                      <!--Read More Button-->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--.row-->
+            </div>
+            <!--.item-->
+            <!--.item-->
+           <!-- <div class="carousel-item ">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="item-box-blog">
+                    <div class="item-box-blog-image">  -->
+                      <!-- Date--> 
+                      <!-- <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu 01</span> </div> -->
+                      <!--Image-->
+                      <!-- <figure> <img alt=""
+                          src="https://cdn.pixabay.com/photo/2017/08/29/04/22/indian-2692073__340.jpg"> </figure>
+                    </div>
+                    <div class="item-box-blog-body"> -->
+                      <!--Heading-->
+                      <!-- <div class="item-box-blog-heading">
+                        <a href="#" tabindex="0">
+                          <h5>Naan</h5>
+                        </a>
+                      </div> -->
+                      <!--Data-->
+                      <!-- <div class="item-box-blog-data" style="padding: px 15px;">
+                        <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
+                      </div> -->
+                      <!--Text-->
+                      <!-- <div class="item-box-blog-text">
+                        <p>Course - Butter Naan
+                          Cost: Rs. 220
+                          About : Naan bread is a type of bread made with flour. It is a flatbread that is baked in the oven.
+                          Naan bread is made from basic bread ingredients like wheat flour, yeast, salt, and butter or ghee. It also is made with yogurt and milk.</p>
+                      </div>
+                      <div class="mt">
+                        <div class="container"  class="btn bg-blue-ui white read">
+                          <div class="row">
+                            <button (click)="onClickMe()">Click me!</button>  -->
+                            <!-- <div class="qty-changer">
+                                    <button class="qty-change"  (click)="deleteNaan()">-</button>
+                                    {{countNaan}}
+                                    <button class="qty-change" (click)="addNaan()">+</button>
+                                </div> -->
+                          <!-- </div>
+                        </div>
+                      </div> -->
+                      <!--Read More Button-->
+                    <!-- </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="item-box-blog">
+                    <div class="item-box-blog-image"> -->
+                      <!--Date-->
+                      <!-- <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu 01</span> </div> -->
+                      <!--Image-->
+                      <!-- <figure> <img alt=""
+                          src="https://cdn.pixabay.com/photo/2020/03/13/20/16/paneer-tikka-4929034__340.jpg"> </figure>
+                    </div>
+                    <div class="item-box-blog-body"> -->
+                      <!--Heading-->
+                      <!-- <div class="item-box-blog-heading">
+                        <a href="#" tabindex="0">
+                          <h5>Paneer</h5>
+                        </a>
+                      </div> -->
+                      <!--Data-->
+                      <!-- <div class="item-box-blog-data" style="padding: px 15px;">
+                        <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
+                      </div> -->
+                      <!--Text-->
+                      <!-- <div class="item-box-blog-text">
+                        <p>Course - Cheese Paneer
+                          Cost: Rs. 150
+                          About :Paneer is a fresh cheese common in the Indian subcontinent.It is an unaged,non-melting soft
+                           cheese made by curdling milk with a fruit- or vegetable-derived acid, such as lemon juice. Its acid-set form, (cheese curd) before pressing, is called chhena.</p>
+                      </div>
+                      <div class="mt">
+                        <div class="container"  class="btn bg-blue-ui white read">
+                          <div class="row">
+                            <button (click)="onClickMe()">Click me!</button>  -->
+                            <!-- <div class="qty-changer">
+                                    <button class="qty-change"  (click)="deletePaneer()">-</button>
+                                    {{countPaneer}}
+                                    <button class="qty-change" (click)="addPaneer()">+</button>
+                                </div> -->
+                          <!-- </div>
+                        </div>
+                      </div> -->
+                      <!--Read More Button-->
+                    <!-- </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="item-box-blog">
+                    <div class="item-box-blog-image"> -->
+                      <!--Date-->
+                      <!-- <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu 01</span> </div> -->
+                      <!--Image-->
+                      <!-- <figure> <img alt=""
+                          src="https://cdn.pixabay.com/photo/2016/01/04/07/07/korean-cabbage-in-chili-sauce-1120406__340.jpg"> </figure>
+                    </div>
+                    <div class="item-box-blog-body"> -->
+                      <!--Heading-->
+                      <!-- <div class="item-box-blog-heading">
+                        <a href="#" tabindex="0">
+                          <h5>Cabbage</h5>
+                        </a>
+                      </div> -->
+                      <!--Data-->
+                      <!-- <div class="item-box-blog-data" style="padding: px 15px;">
+                        <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
+                      </div> -->
+                      <!--Text-->
+                      <!-- <div class="item-box-blog-text">
+                        <p>Course - Cabbage Skillet
+                          Cost: Rs. 180
+                          About :Cabbage is one of those unsung heroes in the kitchen that, thanks to kimchi and sauerkraut has
+                           become quite cool lately. Other than around mid-March, you might not think too much about cabbage. But you should: It’s actually one of the most versatile veggies in your arsenal.</p>
+                      </div>
+                      <div class="mt">
+                        <div class="container"  class="btn bg-blue-ui white read">
+                          <div class="row">
+                            <button (click)="onClickMe()">Click me!</button>  -->
+                            <!-- <div class="qty-changer">
+                                    <button class="qty-change"  (click)="deleteCabbage()">-</button>
+                                    {{countCabbage}}
+                                    <button class="qty-change" (click)="addCabbage()">+</button>
+                                </div> -->
+                          <!-- </div>
+                        </div>
+                      </div> -->
+                      <!--Read More Button-->
+                    <!-- </div>
+                  </div>
+                </div>
+              </div> -->
+              <!--.row-->
+            <!-- </div> -->
+            <!--.item-->
+            <!--.item-->
+            <!-- <div class="carousel-item ">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="item-box-blog">
+                    <div class="item-box-blog-image"> -->
+                      <!--Date-->
+                      <!-- <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu 01</span> </div> -->
+                      <!--Image-->
+                      <!-- <figure> <img alt=""
+                          src="https://cdn.pixabay.com/photo/2017/05/23/13/53/chicken-manchurian-dry-2337313__340.jpg"> </figure>
+                    </div>
+                    <div class="item-box-blog-body"> -->
+                      <!--Heading-->
+                      <!-- <div class="item-box-blog-heading">
+                        <a href="#" tabindex="0">
+                          <h5>Manchurian</h5>
+                        </a>
+                      </div> -->
+                      <!--Data-->
+                      <!-- <div class="item-box-blog-data" style="padding: px 15px;">
+                        <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
+                      </div> -->
+                      <!--Text-->
+                      <!-- <div class="item-box-blog-text">
+                        <p>Course - Gobi Manchurian
+                          Cost: Rs. 120
+                          About :Gobi Manchurian is an Indian cuisine fried cauliflower food item popular in India. Gobi Manchurian
+                           is the result of the adaptation of Chinese cooking and seasoning techniques to suit Indian tastes.</p>
+                      </div>
+                      <div class="mt">
+                        <div class="container"  class="btn bg-blue-ui white read">
+                          <div class="row">
+                            <button (click)="onClickMe()">Click me!</button>  -->
+                            <!-- <div class="qty-changer">
+                                    <button class="qty-change"  (click)="deleteManchurian()">-</button>
+                                    {{countManchurian}}
+                                    <button class="qty-change" (click)="addManchurian()">+</button>
+                                </div> -->
+                          <!-- </div>
+                        </div>
+                      </div> -->
+                      <!--Read More Button-->
+                    <!-- </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="item-box-blog">
+                    <div class="item-box-blog-image"> -->
+                      <!--Date-->
+                      <!-- <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu 01</span> </div> -->
+                      <!--Image-->
+                      <!-- <figure> <img alt=""
+                          src="https://media.istockphoto.com/photos/elegant-indian-desert-gulab-jamun-picture-id827345478?b=1&k=6&m=827345478&s=170667a&w=0&h=nHzN7BAY6PVb4H86nNgVWb1VDLlJrJQ0p6CE29SrJho="> </figure>
+                    </div>
+                    <div class="item-box-blog-body"> -->
+                      <!--Heading-->
+                      <!-- <div class="item-box-blog-heading">
+                        <a href="#" tabindex="0">
+                          <h5>Sweet Dish</h5>
+                        </a>
+                      </div> -->
+                      <!--Data-->
+                      <!-- <div class="item-box-blog-data" style="padding: px 15px;">
+                        <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
+                      </div> -->
+                      <!--Text-->
+                      <!-- <div class="item-box-blog-text">
+                        <p>Course - Gulabjamun
+                          Cost: Rs. 80
+                          About :Gobi Manchurian is an Indian cuisine fried cauliflower food item popular in India. Gobi Manchurian
+                           is the result of the adaptation of Chinese cooking and seasoning techniques to suit Indian tastes.</p>
+                      </div>
+                      <div class="mt">
+                        <div class="container"  class="btn bg-blue-ui white read">
+                          <div class="row">
+                            <button (click)="onClickMe()">Click me!</button>  -->
+                            <!-- <div class="qty-changer">
+                                    <button class="qty-change"  (click)="deleteGulabjamun()">-</button>
+                                    {{countGulabjamun}}
+                                    <button class="qty-change" (click)="addGulabjamun()">+</button>
+                                </div> -->
+                          <!-- </div>
+                        </div>
+                      </div> -->
+                      <!--Read More Button-->
+                    <!-- </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="item-box-blog">
+                    <div class="item-box-blog-image"> -->
+                      <!--Date-->
+                      <!-- <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu 01</span> </div> -->
+                      <!--Image-->
+                      <!-- <figure> <img alt=""
+                          src="https://media.istockphoto.com/photos/fried-rice-picture-id95661645?b=1&k=6&m=95661645&s=170667a&w=0&h=X2ZjxWasOBX8RZ6VL43-pLiGbjfV5LkdmzZr-W6dG7Y="> </figure>
+                    </div>
+                    <div class="item-box-blog-body"> -->
+                      <!--Heading-->
+                      <!-- <div class="item-box-blog-heading">
+                        <a href="#" tabindex="0">
+                          <h5>Fried Rice</h5>
+                        </a>
+                      </div> -->
+                      <!--Data-->
+                      <!-- <div class="item-box-blog-data" style="padding: px 15px;">
+                        <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
+                      </div> -->
+                      <!--Text-->
+                      <!-- <div class="item-box-blog-text">
+                        <p>Course - Fried Rice
+                          Cost: Rs. 180
+                          About :Fried rice is a dish of cooked rice that has been stir-fried in a wok or a frying pan and is usually mixed with other ingredients such as eggs, vegetables, 
+                          seafood, or meat. It is often eaten by itself or as an accompaniment to another dish.</p>
+                      </div>
+                      <div class="mt">
+                        <div class="container"  class="btn bg-blue-ui white read">
+                          <div class="row">
+                            <button (click)="onClickMe()">Click me!</button>  -->
+                            <!-- <div class="qty-changer">
+                                    <button class="qty-change"  (click)="deleteFriedrice()">-</button>
+                                    {{countFriedrice}}
+                                    <button class="qty-change" (click)="addFriedrice()">+</button>
+                                </div> -->
+                          <!-- </div>
+                        </div>
+                      </div> -->
+                      <!--Read More Button-->
+                    <!-- </div>
+                  </div>
+                </div>
+              </div> -->
+              <!--.row-->
+            <!-- </div> -->
+            <!--.item-->
+            <!--.item-->
+            <!-- <div class="carousel-item ">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="item-box-blog">
+                    <div class="item-box-blog-image"> -->
+                      <!--Date-->
+                      <!-- <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu 01</span> </div> -->
+                      <!--Image-->
+                      <!-- <figure> <img alt=""
+                          src="https://media.istockphoto.com/photos/indian-cuisine-dal-baati-picture-id852169526?b=1&k=6&m=852169526&s=170667a&w=0&h=yN9GrbJsJ5hhIX7ou7Y0nJNXKXF1yN2f4bI0w4YVbYU="> </figure>
+                    </div>
+                    <div class="item-box-blog-body"> -->
+                      <!--Heading-->
+                      <!-- <div class="item-box-blog-heading">
+                        <a href="#" tabindex="0">
+                          <h5>Dal Bati</h5>
+                        </a>
+                      </div> -->
+                      <!--Data-->
+                      <!-- <div class="item-box-blog-data" style="padding: px 15px;">
+                        <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
+                      </div> -->
+                      <!--Text-->
+                      <!-- <div class="item-box-blog-text">
+                        <p>Course - Dal Bati Churma
+                          Cost: Rs. 220
+                          About :Dal baati is an Indian dish of dal and baati. It is popular in Rajasthan, Gujarat, Uttar Pradesh
+                           and Madhya Pradesh. Dal is prepared using tuvaar dal, chana dal, mung dal, moth dal, or urad dal. The pulses or lentils are cooked together after being soaked in water for a few hours.</p>
+                      </div>
+                      <div class="mt">
+                        <div class="container"  class="btn bg-blue-ui white read">
+                          <div class="row">
+                            <button (click)="onClickMe()">Click me!</button>  -->
+                            <!-- <div class="qty-changer">
+                                    <button class="qty-change"  (click)="deleteDalbati()">-</button>
+                                    {{countDalbati}}
+                                    <button class="qty-change" (click)="addDalbati()">+</button>
+                                </div> -->
+                          <!-- </div>
+                        </div>
+                      </div> -->
+                      <!--Read More Button-->
+                    <!-- </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="item-box-blog">
+                    <div class="item-box-blog-image"> -->
+                      <!--Date-->
+                      <!-- <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu 01</span> </div> -->
+                      <!--Image-->
+                      <!-- <figure> <img alt=""
+                          src="https://cdn.pixabay.com/photo/2018/09/19/12/47/fish-curry-3688482__340.jpg"> </figure>
+                    </div>
+                    <div class="item-box-blog-body"> -->
+                      <!--Heading-->
+                      <!-- <div class="item-box-blog-heading">
+                        <a href="#" tabindex="0">
+                          <h5>Fish</h5>
+                        </a>
+                      </div> -->
+                      <!--Data-->
+                      <!-- <div class="item-box-blog-data" style="padding: px 15px;">
+                        <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
+                      </div> -->
+                      <!--Text-->
+                      <!-- <div class="item-box-blog-text">
+                        <p>Course - Fish Curry
+                          Cost: Rs. 250
+                          About :Malabar matthi curry, also known as fish curry, is an Indian dish. 
+                          It consists of sardines semi-stewed in a Kerala-style curry with assorted vegetables, such as okra or onions. It is usually served with rice, naan, bread, or tapioca.</p>
+                      </div>
+                      <div class="mt">
+                        <div class="container"  class="btn bg-blue-ui white read">
+                          <div class="row">
+                            <button (click)="onClickMe()">Click me!</button>  -->
+                            <!-- <div class="qty-changer">
+                                    <button class="qty-change"  (click)="deleteFishcurry()">-</button>
+                                    {{countFishcurry}}
+                                    <button class="qty-change" (click)="addFishcurry()">+</button>
+                                </div> -->
+                          <!-- </div>
+                        </div>
+                      </div> -->
+                      <!--Read More Button-->
+                    <!-- </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="item-box-blog">
+                    <div class="item-box-blog-image"> -->
+                      <!--Date-->
+                      <!-- <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu 01</span> </div> -->
+                      <!--Image-->
+                      <!-- <figure> <img alt=""
+                          src="https://cdn.pixabay.com/photo/2014/12/12/01/48/ice-564944__340.jpg"> </figure>
+                    </div>
+                    <div class="item-box-blog-body"> -->
+                      <!--Heading-->
+                      <!-- <div class="item-box-blog-heading">
+                        <a href="#" tabindex="0">
+                          <h5>Desert</h5>
+                        </a>
+                      </div> -->
+                      <!--Data-->
+                      <!-- <div class="item-box-blog-data" style="padding: px 15px;">
+                        <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
+                      </div> -->
+                      <!--Text-->
+                      <!-- <div class="item-box-blog-text">
+                        <p>Course - Ice cream
+                          Cost: Rs. 150
+                          About :Ice cream is a sweetened frozen food typically eaten as a snack or dessert. It may be made from dairy milk or cr
+                          and is flavoured with a sweetener, either sugar or an alternative, and any spice, such as cocoa or vanilla.</p>
+                      </div>
+                      <div class="mt">
+                        <div class="container"  class="btn bg-blue-ui white read">
+                          <div class="row">
+                            <button (click)="onClickMe()">Click me!</button>  -->
+                            <!-- <div class="qty-changer">
+                                    <button class="qty-change"  (click)="deleteIcecream()">-</button>
+                                    {{countIcecream}}
+                                    <button class="qty-change" (click)="addIcecream()">+</button>
+                                </div> -->
+                          <!-- </div>
+                        </div>
+                      </div> -->
+                      <!--Read More Button-->
+                    <!-- </div>
+                  </div>
+                </div>
+              </div> -->
+              <!--.row-->
+            <!-- </div> -->
+            <!--.item-->
+            <!--.item-->
+            <!-- <div class="carousel-item ">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="item-box-blog">
+                    <div class="item-box-blog-image"> -->
+                      <!--Date-->
+                      <!-- <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu 01</span> </div> -->
+                      <!--Image-->
+                      <!-- <figure> <img alt=""
+                          src="https://cdn.pixabay.com/photo/2020/04/26/01/58/indian-5093242__340.jpg"> </figure>
+                    </div>
+                    <div class="item-box-blog-body"> -->
+                      <!--Heading-->
+                      <!-- <div class="item-box-blog-heading">
+                        <a href="#" tabindex="0">
+                          <h5>Kebab</h5>
+                        </a>
+                      </div> -->
+                      <!--Data-->
+                      <!-- <div class="item-box-blog-data" style="padding: px 15px;">
+                        <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
+                      </div> -->
+                      <!--Text-->
+                      <!-- <div class="item-box-blog-text">
+                        <p>Course - Kebab
+                          Cost: Rs. 250
+                          About :Kebabs consist of cut up or ground meat, sometimes with vegetables, and various other accompaniments according to the specific recipe. 
+                          Although kebabs are typically cooked on a skewer over a fire, some kebab dishes are baked in a pan in an oven or prepared as a stew such as tas kebab.</p>
+                      </div>
+                      <div class="mt">
+                        <div class="container"  class="btn bg-blue-ui white read">
+                          <div class="row">
+                            <button (click)="onClickMe()">Click me!</button>  -->
+                            <!-- <div class="qty-changer">
+                                    <button class="qty-change"  (click)="deleteKebab()">-</button>
+                                    {{countKebab}}
+                                    <button class="qty-change" (click)="addKebab()">+</button>
+                                </div> -->
+                          <!-- </div>
+                        </div>
+                      </div> -->
+                      <!--Read More Button-->
+                    <!-- </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="item-box-blog">
+                    <div class="item-box-blog-image"> -->
+                      <!--Date-->
+                      <!-- <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu 01</span> </div> -->
+                      <!--Image-->
+                      <!-- <figure> <img alt=""
+                          src="https://cdn.pixabay.com/photo/2015/05/31/13/59/salad-791891__340.jpg"> </figure>
+                    </div>
+                    <div class="item-box-blog-body"> -->
+                      <!--Heading-->
+                      <!-- <div class="item-box-blog-heading">
+                        <a href="#" tabindex="0">
+                          <h5>Green Salad</h5>
+                        </a>
+                      </div> -->
+                      <!--Data-->
+                      <!-- <div class="item-box-blog-data" style="padding: px 15px;">
+                        <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
+                      </div> -->
+                      <!--Text-->
+                      <!-- <div class="item-box-blog-text">
+                        <p>Course - Green Salad
+                          Cost: Rs. 80
+                          About :A salad is a dish consisting of a mixture of small pieces of food, usually vegetables or fruit.
+                           However, different varieties of salad may contain virtually any type of ready-to-eat food. </p>
+                      </div>
+                      <div class="mt">
+                        <div class="container"  class="btn bg-blue-ui white read">
+                          <div class="row">
+                            <button (click)="onClickMe()">Click me!</button>  -->
+                            <!-- <div class="qty-changer">
+                                    <button class="qty-change"  (click)="deleteGreensalad()">-</button>
+                                    {{countGreensalad}}
+                                    <button class="qty-change" (click)="addGreensalad()">+</button>
+                                </div> -->
+                          <!-- </div>
+                        </div>
+                      </div> -->
+                      <!--Read More Button-->
+                    <!-- </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="item-box-blog">
+                    <div class="item-box-blog-image"> -->
+                      <!--Date-->
+                      <!-- <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu 01</span> </div> -->
+                      <!--Image-->
+                      <!-- <figure> <img alt=""
+                          src="https://cdn.pixabay.com/photo/2016/10/09/14/00/vegetable-juices-1725835__340.jpg"> </figure>
+                    </div>
+                    <div class="item-box-blog-body"> -->
+                      <!--Heading-->
+                      <!-- <div class="item-box-blog-heading">
+                        <a href="#" tabindex="0">
+                          <h5>Fresh Juices</h5>
+                        </a>
+                      </div> -->
+                      <!--Data-->
+                      <!-- <div class="item-box-blog-data" style="padding: px 15px;">
+                        <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
+                      </div> -->
+                      <!--Text-->
+                      <!-- <div class="item-box-blog-text">
+                        <p>Course - Fresh Juices
+                          Cost : Rs. 80
+                          About :Juice is a drink made from the extraction or pressing of the natural liquid contained in fruit and vegetables. 
+                          It can also refer to liquids that are flavored with concentrate or other biological food sources, such as meat or seafood, such as clam juice. </p>
+                      </div>
+                      <div class="mt">
+                        <div class="container"  class="btn bg-blue-ui white read">
+                          <div class="row">
+                            <button (click)="onClickMe()">Click me!</button>  -->
+                            <!-- <div class="qty-changer">
+                                    <button class="qty-change"  (click)="deleteFreshjuice()">-</button>
+                                    {{countFreshjuice}}
+                                    <button class="qty-change" (click)="addFreshjuice()">+</button>
+                                </div> -->
+                          <!-- </div>
+                        </div>
+                      </div> -->
+                      <!--Read More Button-->
+                    <!-- </div>
+                  </div>
+                </div>
+              </div>  -->
+              <!--.row-->
+            <!-- </div> -->
+            <!--.item-->
+          <!-- </div> -->
+          <!--.carousel-inner-->
+        <!-- </div> -->
+        <!--.Carousel-->
+      </div>
+    </div>
+  </div>
+</div>
